@@ -1,3 +1,12 @@
+@import "~bootstrap/scss/_mixins";
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/_root";
+@import "~bootstrap/scss/_reboot";
+@import "~bootstrap/scss/_grid";
+@import "~bootstrap/scss/_utilities";
+@import "~bootstrap/scss/_buttons";
+
 @font-face {
   font-family: 'Vazir';
   src: local('Vazir'), local('Vazir-Regular'),
