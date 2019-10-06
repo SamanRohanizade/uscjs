@@ -5,6 +5,7 @@ module.exports = {
     author: `Saman Rohanizade`,
   },
   plugins: [
+    `gatsby-plugin-root-import`,
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-sass',
     {
