@@ -1,0 +1,30 @@
+@keyframes reveal {
+  40% {
+    clip-path: circle(20% at center);
+  }
+  60% {
+    clip-path: circle(10% at center);
+  }
+  to {
+    clip-path: circle(100% at center);
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  background: #f0d300;
+  color: #191919;
+  text-align: center;
+  font-weight: bold;
+  clip-path: circle(1em at center);
+  animation: reveal 2s forwards ease-in-out;
+
+  &-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12vw;
+  }
+}

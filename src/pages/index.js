@@ -7,7 +7,6 @@ import Header from "src/components/header"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Header></Header>
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
