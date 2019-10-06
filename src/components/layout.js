@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.scss"
+import bookImage from 'src/images/YDKJS.png'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -17,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header title="JavaScript">
+      <Header title="JavaScript" headerBottomImage={bookImage}>
         <nav className="navbar navbar-expand-sm bg-transparent navbar-light fixed-top">
           <a className="navbar-brand" href="#">
             {data.site.siteMetadata.title}

@@ -27,4 +27,12 @@
     font-family: 'Fira Sans', sans-serif;
     font-size: 12vw;
   }
+
+  &-image {
+    position: absolute;
+    width: 240px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
