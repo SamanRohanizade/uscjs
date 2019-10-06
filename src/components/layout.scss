@@ -8,6 +8,13 @@
 @import "~bootstrap/scss/_navbar";
 @import "~bootstrap/scss/_utilities";
 
+.navbar:not(.fixed-top) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 @font-face {
   font-family: 'Vazir';
   src: local('Vazir'), local('Vazir-Regular'),
@@ -24,6 +31,7 @@
 }
 body {
   font-family: 'Vazir';
+  user-select: none;
 }
 
 @for $i from 1 through 6 {
