@@ -32,7 +32,9 @@ const Layout = ({ children }) => {
         ></Navbar>
       </Header>
       <div className="container">{children}</div>
-      <footer>Footer</footer>
+      <footer className="p-3 text-white text-center">
+        جهت کسب اطلاعات بیشتر با آیدی تلگرام motameni76@ در تماس باشید!
+      </footer>
     </>
   )
 }

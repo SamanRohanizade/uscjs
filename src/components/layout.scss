@@ -1,4 +1,5 @@
 $primary: #f0d300;
+$dark: #191919;
 
 @import "~bootstrap/scss/_mixins";
 @import "~bootstrap/scss/_functions";
@@ -35,6 +36,11 @@ body {
   h#{$i} {
     font-family: 'Vazir';
   }
+}
+
+footer {
+  width: 100%;
+  background: $dark;
 }
 
 .heading {
