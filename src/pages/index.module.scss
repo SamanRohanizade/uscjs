@@ -1,3 +1,11 @@
 .main {
   margin-top: 10rem;
 }
+
+.gray-scale {
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: none;
+  }
+}
