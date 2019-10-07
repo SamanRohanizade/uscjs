@@ -14,7 +14,7 @@ const IndexPage = () => (
       <Image />
     </div> */}
     <div className={styles.main}>
-      <h2 id="dardore" className="heading mx-auto">درباره این دوره</h2>
+      <h2 id="about" className="heading mx-auto">درباره این دوره</h2>
     </div>
     <div className="container">
       <div className="row mt-5">
@@ -35,13 +35,13 @@ const IndexPage = () => (
 
       <h2 className="heading mx-auto mt-5">مدرسان دوره</h2>
       <div className="row mt-5 justify-content-center">
-        <div className="col-7 col-sm-6 col-md-3 mb-5 text-center">
-          <img className="w-100 rounded-circle mb-3" src={mammadImage} alt="mammad"/>
-          محمد محمودی
-        </div>
         <div className="col-7 col-sm-6 col-md-3 text-center">
           <img className={styles.grayScale + " w-100 rounded-circle mb-3"} src={samanImage} alt="saman"/>
           سامان روحانی‌زاده
+        </div>
+        <div className="col-7 col-sm-6 col-md-3 mb-5 text-center">
+          <img className="w-100 rounded-circle mb-3" src={mammadImage} alt="mammad"/>
+          محمد محمودی
         </div>
       </div>
     </div>
