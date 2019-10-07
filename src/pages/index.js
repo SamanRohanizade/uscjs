@@ -21,7 +21,7 @@ const IndexPage = () => (
         <div className="col-md-6 text-center">
           <img className="w-75" src={jsBagImage} alt="" draggable="false" />
         </div>
-        <div className="col-md-6 d-flex align-items-center">
+        <div className="col-md-6 d-flex align-items-center mt-4 mt-md-0">
           <p className="text-muted">
           چند وقتی هست که به خاطر کامیونیتی فعال جاوااسکریپت، هر روز با تعداد زیادی ابزار جاوااسکریپتی مثل... روبه‌رو می‌شیم. و حتما دوره‌های "پروژه محور" زیادی که برای این ابزارها وجود دارند رو دیدید.
 
@@ -35,11 +35,11 @@ const IndexPage = () => (
 
       <h2 className="heading mx-auto mt-5">مدرسان دوره</h2>
       <div className="row mt-5 justify-content-center">
-        <div className="col-7 col-sm-6 col-md-3 text-center">
+        <div className="col-7 col-sm-6 col-md-3 text-center mb-5">
           <img className={styles.grayScale + " w-100 rounded-circle mb-3"} src={samanImage} alt="saman"/>
           سامان روحانی‌زاده
         </div>
-        <div className="col-7 col-sm-6 col-md-3 mb-5 text-center">
+        <div className="col-7 col-sm-6 col-md-3 text-center mb-5">
           <img className="w-100 rounded-circle mb-3" src={mammadImage} alt="mammad"/>
           محمد محمودی
         </div>
