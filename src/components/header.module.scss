@@ -5,8 +5,11 @@
   60% {
     clip-path: circle(10% at center);
   }
-  to {
+  90% {
     clip-path: circle(100% at center);
+  }
+  100% {
+    clip-path: none;
   }
 }
 
