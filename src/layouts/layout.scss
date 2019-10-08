@@ -39,7 +39,9 @@ body {
 }
 
 .main.with-sidebar {
-  margin-right: 250px;
+  @media screen and (min-width: 768px) {
+    margin-right: 250px;
+  }
 }
 
 footer {

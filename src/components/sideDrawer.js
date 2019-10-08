@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './sideDrawer.module.scss'
 
-const SideDrawer = ({ width }) => {
+const SideDrawer = ({ width, isOpen }) => {
+  let sideDrawerStyles = [styles.sidebar, (isOpen ? styles.open : '')]
   return (
-    <aside className={styles.sidebar} style={{ width }}>
+    <aside className={sideDrawerStyles.join(" ")} style={{ width }}>
       
     </aside>
   )

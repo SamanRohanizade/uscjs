@@ -17,7 +17,7 @@ const PostsLayout = ({children}) => {
         items={navbarItems}
         logo={logo}
       ></Navbar>
-      <SideDrawer width="250px"></SideDrawer>
+      <SideDrawer width="250px" isOpen></SideDrawer>
       <div className="main with-sidebar mt-5 pt-5 px-5">
         {children}
       </div>
