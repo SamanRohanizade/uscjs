@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "src/components/layout"
+import Layout from "src/layouts/mainLayout"
 // import Image from "../components/image"
 import SEO from "src/components/seo"
 import styles from "./index.module.scss"

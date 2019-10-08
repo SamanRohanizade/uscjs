@@ -1,9 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import Navbar from "./navbar"
-import "./layout.scss"
+import Header from "../components/header"
+import Navbar from "../components/navbar"
+import "./mainLayout.scss"
 import bookImage from 'src/images/YDKJS.png'
 import logo from 'src/images/icon.png'
 
