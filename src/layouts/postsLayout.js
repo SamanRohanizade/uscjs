@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from "src/components/navbar"
+import SideDrawer from "src/components/sideDrawer"
 import logo from 'src/images/icon.png'
 import "./layout.scss"
 
@@ -16,7 +17,8 @@ const PostsLayout = ({children}) => {
         items={navbarItems}
         logo={logo}
       ></Navbar>
-      <div className="container mt-5 pt-5">
+      <SideDrawer width="250px"></SideDrawer>
+      <div className="main with-sidebar mt-5 pt-5 px-5">
         {children}
       </div>
     </>

@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
           logo={logo}
         ></Navbar>
       </Header>
-      <div className="container">{children}</div>
+      <div className="container main">{children}</div>
       <footer className="p-3 text-white text-center">
         جهت کسب اطلاعات بیشتر با آیدی تلگرام motameni76@ در تماس باشید!
       </footer>
