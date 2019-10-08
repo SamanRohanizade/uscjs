@@ -1,6 +1,6 @@
 ---
-path: /topics/basics
-title: My First Post
-date: 2019-07-10
+order: 1
+path: /topics
+title: بررسی کاربردهای جاوااسکریپت، تاریخچه و مفاهیم اولیه
 ---
 This is my first Gatsby post written in Markdown!
