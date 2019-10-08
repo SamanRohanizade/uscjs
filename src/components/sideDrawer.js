@@ -8,7 +8,7 @@ const SideDrawer = ({ width, isOpen, items }) => {
     <aside className={sideDrawerStyles.join(" ")} style={{ width }}>
       <ul className={styles.sidebarList}>
         {items.map(i => (
-          <li key={i.title}>
+          <li key={i.title} className="mb-3">
             <Link to={i.path} activeClassName="text-primary">
               {i.title}
             </Link>
