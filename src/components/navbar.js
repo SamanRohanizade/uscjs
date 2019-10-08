@@ -16,7 +16,12 @@ const Navbar = ({ items, allowCollapse, logo, Toggler }) => {
         <ul className={navClassNames.join(' ')}>
           {items.map(i => (
             <li className="nav-item ml-2" key={i.text}>
-              <Link className="nav-link" activeClassName="active" to={i.to}>{i.text}</Link>
+              <Link
+                className="nav-link"
+                activeClassName="active"
+                to={i.to}
+                partiallyActive={i.partial}
+              >{i.text}</Link>
             </li>
           ))}
         </ul>

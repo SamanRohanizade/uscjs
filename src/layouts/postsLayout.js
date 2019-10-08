@@ -9,7 +9,7 @@ const PostsLayout = ({children}) => {
 
   let navbarItems = [
     { text: 'درباره دوره', to: '/' },
-    { text: 'سرفصل‌های دوره', to: '/topics/basics' },
+    { text: 'سرفصل‌های دوره', to: '/topics/basics', partial: true },
   ];
   let sideDrawerClassNames = ['main', 'mt-5', 'pt-5', 'px-5', (sideDrawerVisibility ? 'with-sidebar' : '')];
 
