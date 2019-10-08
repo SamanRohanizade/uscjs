@@ -13,9 +13,10 @@ const Navbar = ({ items, allowCollapse, logo }) => {
           </li>
         ))}
       </ul>
-      <a className="navbar-brand" href="#">
+      
+      {logo ? <a className="navbar-brand" href="#">
         <img src={logo} alt="logo" width="45"/>
-      </a>
+      </a> : null}
     </nav>
   )
 }
