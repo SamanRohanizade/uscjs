@@ -5,7 +5,10 @@ const Navbar = ({ items, allowCollapse, logo }) => {
   let navClassNames = ['navbar-nav', 'pr-0', (allowCollapse ? '' : 'flex-row')];
 
   return (
-    <nav className="navbar navbar-expand-sm bg-primary navbar-light fixed-top justify-content-between">
+    <nav
+      className="navbar navbar-expand-sm bg-primary navbar-light fixed-top justify-content-between"
+      style={{ minHeight: '3.5rem' }}  
+    >
       <ul className={navClassNames.join(' ')}>
         {items.map(i => (
           <li className="nav-item ml-3" key={i.text}>
