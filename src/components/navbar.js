@@ -10,9 +10,9 @@ const Navbar = ({ items, allowCollapse, logo, Toggler }) => {
       style={{ minHeight: '3.5rem' }}  
     >
       <div className="d-flex">
-        <div className="toggler mt-1 ml-4">
+        {Toggler ? <div className="toggler mt-1 ml-4">
           {Toggler}
-        </div>
+        </div> : null}
         <ul className={navClassNames.join(' ')}>
           {items.map(i => (
             <li className="nav-item ml-2" key={i.text}>
