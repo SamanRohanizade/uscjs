@@ -9,7 +9,7 @@ const Navbar = ({ items, allowCollapse, logo }) => {
       <ul className={navClassNames.join(' ')}>
         {items.map(i => (
           <li className="nav-item ml-3" key={i.text}>
-            <Link className="nav-link" to={i.to}>{i.text}</Link>
+            <Link className="nav-link" activeClassName="active" to={i.to}>{i.text}</Link>
           </li>
         ))}
       </ul>
