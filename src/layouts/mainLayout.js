@@ -10,7 +10,7 @@ import logo from 'src/images/icon.png'
 const Layout = ({ children }) => {
   let navbarItems = [
     { text: 'درباره دوره', to: '/#about' },
-    { text: 'سرفصل‌های دوره', to: '/topics/basics' },
+    { text: 'سرفصل‌های دوره', to: '/topics' },
   ]
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

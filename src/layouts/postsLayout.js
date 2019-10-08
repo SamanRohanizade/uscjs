@@ -9,7 +9,7 @@ const PostsLayout = ({ children }) => {
   let [sideDrawerVisibility, setSideDrawerVisibility] = useState(true);
   let data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {order: ASC, fields: frontmatter___order}) {
         edges {
           node {
             frontmatter {
@@ -29,7 +29,7 @@ const PostsLayout = ({ children }) => {
 
   let navbarItems = [
     { text: 'درباره دوره', to: '/' },
-    { text: 'سرفصل‌های دوره', to: '/topics/basics', partial: true },
+    { text: 'سرفصل‌های دوره', to: '/topics', partial: true },
   ];
   let sideDrawerClassNames = ['main', 'mt-5', 'pt-5', 'px-5', (sideDrawerVisibility ? 'with-sidebar' : '')];
 
@@ -46,7 +46,7 @@ const PostsLayout = ({ children }) => {
         Toggler={toggler}
       ></Navbar>
       <SideDrawer
-        width="250px"
+        width="350px"
         isOpen={sideDrawerVisibility}
         items={sideDrawerItems}
       ></SideDrawer>
