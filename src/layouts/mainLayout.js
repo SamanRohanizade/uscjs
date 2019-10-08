@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../components/header"
 import Navbar from "../components/navbar"
-import "./mainLayout.scss"
+import "./layout.scss"
 import bookImage from 'src/images/YDKJS.png'
 import logo from 'src/images/icon.png'
 

@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from "../components/navbar"
+import Navbar from "src/components/navbar"
 import logo from 'src/images/icon.png'
+import "./layout.scss"
 
 const PostsLayout = ({children}) => {
   let navbarItems = [
