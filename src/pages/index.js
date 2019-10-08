@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'gatsby'
 import Layout from "src/layouts/mainLayout"
 // import Image from "../components/image"
 import SEO from "src/components/seo"
@@ -21,7 +22,7 @@ const IndexPage = () => (
         <div className="col-md-6 text-center">
           <img className="w-75" src={jsBagImage} alt="" draggable="false" />
         </div>
-        <div className="col-md-6 d-flex align-items-center mt-4 mt-md-0">
+        <div className="col-md-6 d-flex flex-column justify-content-center mt-4 mt-md-0">
           <p className="text-muted">
           چند وقتی هست که به خاطر کامیونیتی فعال جاوااسکریپت، هر روز با تعداد زیادی ابزار جاوااسکریپتی مثل... روبه‌رو می‌شیم. و حتما دوره‌های "پروژه محور" زیادی که برای این ابزارها وجود دارند رو دیدید.
 
@@ -29,6 +30,11 @@ const IndexPage = () => (
 
 در انتهای این دوره فقط مهارت کار با یک ابزار را کسب نمی‌کنیم. بلکه دانش پایه‌ای عمیقی به دست میاریم که برای یادگیری راحت‌تر همه‌ی ابزارهای جاوااسکریپتی، مصاحبه‌های شغلی، نوشتن کد با کیفیت‌تر و ... به کارمون میاد
           </p>
+          <div className="text-left">
+            <Link to="/topics" className="btn btn-primary btn-rounded">
+              سرفصل‌های دوره
+            </Link>
+          </div>
         </div>
       </div>
 
