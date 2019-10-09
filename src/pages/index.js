@@ -10,7 +10,7 @@ import mammadImage from 'src/images/mammad.jpg'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="صفحه اصلی" />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
