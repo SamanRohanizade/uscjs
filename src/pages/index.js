@@ -43,12 +43,12 @@ const IndexPage = () => (
       <div className="row mt-5 justify-content-center">
         <div className="col-7 col-sm-6 col-md-3 text-center mb-5">
           <a href="https://virgool.io/@saman.rohanizade" className="text-dark" target="_blank">
-            <img className={styles.grayScale + " w-100 rounded-circle mb-3"} src={samanImage} alt="saman"/>
+            <img className={styles.grayScale + " w-100 rounded-circle mb-3"} src={samanImage} alt="سامان روحانی‌زاده"/>
             سامان روحانی‌زاده
           </a>
           </div>
         <div className="col-7 col-sm-6 col-md-3 text-center mb-5">
-          <img className="w-100 rounded-circle mb-3" src={mammadImage} alt="mammad"/>
+          <img className="w-100 rounded-circle mb-3" src={mammadImage} alt="محمد محمودی"/>
           محمد محمودی
         </div>
       </div>
