@@ -3,4 +3,11 @@ order: 4
 path: /topics/prototype
 title: بررسی مفهوم prototype و الگوهای OLOO و Delegation
 ---
-This is my first Gatsby post written in Markdown!
+
+***
+
+<br/>
+
+احتمالا شنیده‌اید که انتقادهایی زیادی به OOP در جاوااسکریپت می‌شه. اینکه جاوااسکریپت از پایه‌ای‌ترین بحث‌های OOP مثل inheritance و encapsulation پشتیبانی نمی‌کنه و ...
+
+تو این جلسه با مفهوم خیلی مهم Prototype آشنا می‌شیم و اینکه چطور آبجکت‌های جاوااسکریپت به هم متصل می‌شوند و یک سیستم delegation قوی رو تشکیل می‌دهند.
