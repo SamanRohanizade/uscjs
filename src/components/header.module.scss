@@ -1,15 +1,15 @@
 @keyframes reveal {
+  0% {
+    clip-path: circle(1em at center);
+  }
   40% {
     clip-path: circle(20% at center);
   }
   60% {
     clip-path: circle(10% at center);
   }
-  90% {
-    clip-path: circle(100% at center);
-  }
   100% {
-    clip-path: none;
+    clip-path: circle(100% at center);
   }
 }
 
@@ -24,8 +24,7 @@
   color: #191919;
   text-align: center;
   font-weight: bold;
-  clip-path: circle(1em at center);
-  animation: reveal 2s forwards ease-in-out;
+  animation: reveal 1.7s ease-in-out;
 
   &-title {
     font-family: 'Fira Sans', sans-serif;
