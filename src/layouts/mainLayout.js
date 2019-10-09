@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
       </Header>
       <div className="container main">{children}</div>
       <footer className="p-3 text-white text-center">
-        جهت کسب اطلاعات بیشتر با آیدی تلگرام motameni76@ در تماس باشید!
+        برای اطلاعات بیشتر با کانال تلگرام usc_javascript@ در تماس باشید!
       </footer>
     </>
   )
