@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from 'gatsby'
 import Layout from "src/layouts/mainLayout"
-// import Image from "../components/image"
 import SEO from "src/components/seo"
 import styles from "./index.module.scss"
 import jsBagImage from 'src/images/js-bag.png'
@@ -11,9 +10,6 @@ import mammadImage from 'src/images/mammad.jpg'
 const IndexPage = () => (
   <Layout>
     <SEO title="صفحه اصلی" />
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div> */}
     <div className={styles.main}>
       <h2 id="about" className="heading mx-auto">درباره این دوره</h2>
     </div>
